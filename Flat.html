@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Flat.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card-container ">
+                <h1 class="Home-head">Sunrise Avenue</h1>
+                <p class="Home-para">Move to what moves you.</p>
+                <button class="Home-btn" onclick="display('sectionSunrise')">Book Flat</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSunrise">
+        <div class="sun-container">
+            <h1 class="sunrise-head">Sunrise Avenue</h1>
+            <div class="sunrise-card-container d-flex flex-row" onclick="display('section3BHK')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="sun-images" />
+                <div>
+                    <h1 class="flat-head">3BHK Flat</h1>
+                    <p class="flat-para">This is a fully furnished house with handmade furniture including a luxury en-
+                        suote facilities pack.Its built-up area is about 1600sq.ft. A spacious home for you to live in.</p>
+                </div>
+            </div>
+            <div class="sunrise-card-container d-flex flex-row" onclick="display('section2BHK')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="sun-images" />
+                <div>
+                    <h1 class="flat-head">2BHK Flat</h1>
+                    <p class="flat-para">A minimalist house made for modern-day families.It is fully firnished with trending
+                        furniture.Its built-up area ia about 1200sq.ft.</p>
+                </div>
+            </div>
+            <div class="sunrise-card-container d-flex flex-row" onclick="display('section4BHK')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="sun-images" />
+                <div>
+                    <h1 class="flat-head">4BHK Flat</h1>
+                    <p class="flat-para">A contemporary home with more color and vibrancy.It is furnished width
+                        elegant furniture.Its built-up area is about 3600sq.ft.</p>
+                </div>
+            </div>
+            <button class="sun-btn" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    <div id="section3BHK">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="BHK-image" />
+        <div class="BHK-container">
+            <h1 class="BHK-head">Rs 3000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-image" />
+                <h1 class="BHK-para">D/N 5-2,Food Street,Indore</h1>
+            </div>
+            <h1 class="BHK-head">Description</h1>
+            <p class="BHK-para">This is a fully furnished house with handmade furniture including a luxury en-
+                suote facilities pack.Its built-up area is about 1600sq.ft. A spacious home for you to live in. </p>
+            <button class="BHK-btn">Confirm</button>
+            <button class="BHK-btn" onclick="display('sectionSunrise')">Back</button>
+        </div>
+    </div>
+    <div id="section2BHK">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="BHK-image" />
+        <div class="BHK-container">
+            <h1 class="BHK-head">Rs 2000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-image" />
+                <h1 class="BHK-para">D/N 6-2,Food Street,Indore</h1>
+            </div>
+            <h1 class="BHK-head">Description</h1>
+            <p class="BHK-para">A minimalist house made for modern-day families.It is fully firnished with trending
+                furniture.Its built-up area ia about 1200sq.ft. </p>
+            <button class="BHK-btn">Confirm</button>
+            <button class="BHK-btn" onclick="display('sectionSunrise')">Back</button>
+        </div>
+    </div>
+    <div id="section4BHK">
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="BHK-image" />
+        <div class="BHK-container">
+            <h1 class="BHK-head">Rs 4000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-image" />
+                <h1 class="BHK-para">D/N 5-2,Food Street,Indore</h1>
+            </div>
+            <h1 class="BHK-head">Description</h1>
+            <p class="BHK-para">A contemporary home with more color and vibrancy.It is furnished width
+                elegant furniture.Its built-up area is about 3600sq.ft. </p>
+            <button class="BHK-btn">Confirm</button>
+            <button class="BHK-btn" onclick="display('sectionSunrise')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>

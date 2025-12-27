@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.card-container {
+    background-color: #ffffff;
+    height: 35vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Home-head {
+    color: #f19116;
+    font-size: 22px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Home-para {
+    color: #7b8794;
+    font-size: 15px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Home-btn {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #f19116;
+    border-color: #f19116;
+    border-radius: 5px;
+    margin-left: 190px;
+    width: 15vh;
+    height: 6vh;
+}
+
+.sun-container {
+    background-color: #222222;
+    height: 130vh;
+}
+
+.sunrise-head {
+    color: #f19116;
+    font-size: 25px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    padding: 20px;
+}
+
+.sunrise-card-container {
+    background-color: #ffffff;
+    height: 30vh;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 3px;
+}
+
+.sun-images {
+    height: 30vh;
+    width: 15vh;
+}
+
+.flat-head {
+    color: #0f0e46;
+    font-size: 28px;
+    font-family: "Bree Serif";
+    font-weight: 900;
+    padding: 5px;
+}
+
+.flat-para {
+    color: #7b8794;
+    font-size: 14px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.sun-btn {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #f19116;
+    border-color: #f19116;
+    border-radius: 5px;
+    width: 15vh;
+    margin: 10px;
+}
+
+.BHK-image {
+    height: 40vh;
+    width: 100vh;
+    background-size: cover;
+}
+
+.BHK-container {
+    background-color: #222222;
+    height: 80vh;
+}
+
+.BHK-head {
+    color: #f19116;
+    font-size: 25px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    padding: 20px;
+}
+
+.BHK-para {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.location-image {
+    height: 5vh;
+    margin-left: 20px;
+}
+
+.BHK-btn {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #f19116;
+    border-color: #f19116;
+    border-radius: 5px;
+    width: 15vh;
+    margin: 10px;
+    margin-left: 50px;
+}
